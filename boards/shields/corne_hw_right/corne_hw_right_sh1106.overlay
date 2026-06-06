@@ -17,7 +17,7 @@
 };
 
 &kscan0 {
-    row-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>,  /* Row 0 = P0.02 */
+    row-gpios = <&gpio0 2  GPIO_ACTIVE_HIGH>,  /* Row 0 = P0.02 */
                 <&gpio1 11 GPIO_ACTIVE_HIGH>,  /* Row 1 = P1.11 */
                 <&gpio0 10 GPIO_ACTIVE_HIGH>,  /* Row 2 = P0.10 */
                 <&gpio0 9  GPIO_ACTIVE_HIGH>;  /* Row 3 = P0.09 */
